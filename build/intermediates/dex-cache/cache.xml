@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\NewGit\JTCDemo\app\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="D:\NewGit\JTCDemo\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_59f5b661538d67c1ff5051bb770775e572619a0e.jar" />
+    </item>
+
+</items>
