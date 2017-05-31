@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_counselor_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_navi"/>
+
+    <LinearLayout
+        android:id="@+id/layout_counselor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/about_top_bg"
+        android:minHeight="80dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:clickable="true"
+        android:onClick="onCounselorClick"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/height_50"
+            android:layout_height="@dimen/height_50"
+            android:layout_gravity="top"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_marginRight="@dimen/margin_16"
+            android:src="@mipmap/head2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/style_text_black"
+                android:layout_width="match_parent"
+                android:text="股市專業分析"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold"
+                android:layout_gravity="start"/>
+
+            <TextView
+                style="@style/style_text_black"
+                android:layout_width="match_parent"
+                android:text="陳向東"
+                android:layout_gravity="start"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/text_size_medium"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/style_text_black"
+                android:layout_width="match_parent"
+                android:text="1000港幣/次            (在線)"
+                android:layout_gravity="start"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/text_size_small" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_counselor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/about_top_bg"
+        android:minHeight="80dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:clickable="true"
+        android:onClick="onCounselorClick"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/height_50"
+            android:layout_height="@dimen/height_50"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_marginRight="@dimen/margin_16"
+            android:src="@mipmap/head2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/style_text_black"
+                android:layout_width="match_parent"
+                android:text="股市專業分析"
+                android:layout_gravity="start"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/style_text_black"
+                android:layout_width="match_parent"
+                android:text="陳向東"
+                android:layout_gravity="start"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/text_size_medium"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/style_text_black"
+                android:layout_width="match_parent"
+                android:text="1000港幣/次            (在線)"
+                android:layout_gravity="start"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/text_size_small" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

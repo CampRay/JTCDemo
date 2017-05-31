@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+android:interpolator是动画插入器,主要可配置的参数有以下几种：
+    AccelerateInterpolator： 加速，开始时慢中间加速
+    DecelerateInterpolator: 减速，开始时快然后减速
+    AccelerateDecelerateInterolator：先加速后减速，开始结束时慢，中间加速
+    AnticipateInterpolator：反向，先向相反方向改变一段再加速播放
+    AnticipateOvershootInterpolator： 反向加超越，先向相反方向改变，再加速播放，会超出目的值然后缓慢移动至目的值
+    BounceInterpolator: 跳跃，快到目的值时值会跳跃，如目的值100，后面的值可能依次为85，77，70，80，90，100
+    CycleIinterpolator: 循环，动画循环一定次数，值的改变为一正弦函数：Math.sin(2* mCycles* Math.PI* input)
+    LinearInterpolator: 线性，线性均匀改变
+    OvershottInterpolator: 超越，最后超出目的值然后缓慢改变到目的值
+-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+    <scale android:fromXScale="1" android:toXScale="0" android:fromYScale="1" android:toYScale="0" android:pivotX="50%p" android:pivotY="50%p"/>
+</set>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg"
+    android:orientation="vertical" >
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/sw_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_floating_material_light">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/banner" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                >
+
+
+                <Button
+                    android:id="@+id/btn_service_love"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|fill"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:drawableTop="@drawable/demo_icon_0"
+                    android:text="@string/btn_love"
+                    android:textColor="@color/base_color_text_black"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btn_service_stock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_vertical|fill_horizontal|fill|clip_vertical|clip_horizontal"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:drawableTop="@drawable/demo_icon_1"
+                    android:text="@string/btn_stock"
+                    android:textColor="@color/base_color_text_black"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btn_service_invest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="fill"
+
+                    android:background="@android:color/white"
+                    android:drawableTop="@drawable/demo_icon_2"
+                    android:text="@string/btn_live"
+                    android:textColor="@color/base_color_text_black"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btn_service_beauty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:drawableTop="@drawable/demo_icon_3"
+                    android:text="@string/btn_beauty"
+                    android:textColor="@color/base_color_text_black"
+                    android:textSize="12sp"
+                    tools:text="@string/btn_beauty" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:padding="5dp"
+                    >
+                <Button
+                    android:id="@+id/btn_service_work"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="fill"
+                    android:background="@android:color/white"
+                    android:drawableTop="@drawable/demo_icon_4"
+                    android:text="@string/btn_work"
+                    android:textColor="@color/base_color_text_black"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btn_service_health"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="fill"
+
+                    android:background="@android:color/white"
+                    android:drawableTop="@drawable/demo_icon_5"
+                    android:text="@string/btn_health"
+                    android:textColor="@color/base_color_text_black"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btn_service_law"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="fill"
+                    android:background="@android:color/white"
+                    android:drawableTop="@drawable/demo_icon_6"
+                    android:text="@string/btn_law"
+                    android:textColor="@color/base_color_text_black"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btn_service_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="fill"
+                    android:background="@android:color/white"
+                    android:drawableTop="@drawable/demo_icon_7"
+                    android:text="@string/btn_more"
+                    android:textColor="@color/base_color_text_black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_online"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|fill"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:src="@mipmap/head1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_online_find"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+
+                        android:background="@android:color/white"
+                        android:drawableTop="@drawable/demo_icon_7"
+                        android:text="@string/btn_more"
+                        android:textColor="@color/base_color_text_black"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/btn_online_answer"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="1dp"
+
+                        android:layout_weight="1"
+                        android:background="@android:color/white"
+                        android:drawableTop="@drawable/demo_icon_7"
+                        android:text="@string/btn_more"
+                        android:textColor="@color/base_color_text_black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/banner" />
+        </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

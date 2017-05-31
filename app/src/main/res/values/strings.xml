@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">JTCDEMO</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_username_hint">請輸入用戶名&#8230;</string>
+    <string name="login_password_hint">請輸入密碼&#8230;</string>
+    <string name="login_email_hint">請再次輸入密碼&#8230;</string>
+    <string name="login">登錄</string>
+    <string name="register">註冊</string>
+    <string name="register_txt1">還沒有賬號？</string>
+    <string name="register_txt2">立即註冊 ></string>
+    <string name="login_account">賬號 </string>
+    <string name="login_pwd">密碼 </string>
+    <string name="login_email">確認密碼 </string>
+
+    <string name="main_tab_recent">會話</string>
+    <string name="main_tab_contact">聯繫人</string>
+    <string name="mian_tab_set">設置</string>
+
+    <string name="add_avator">頭像</string>
+    <string name="add_nick">昵稱</string>
+    <string name="add_name">賬號</string>
+    <string name="agree">接受</string>
+    <string name="new_friend">新的朋友</string>
+
+    <string name="chat">聯天</string>
+    <string name="add_friend">添加好友</string>
+
+    <string name="set_notify">接收新消息通知</string>
+    <string name="set_myinfo">個人資料</string>
+    <string name="set_blacklist">黑名單</string>
+    <string name="set_voice">聲音</string>
+    <string name="set_vibrate">震动</string>
+    <string name="logout">退出登錄</string>
+
+    <string name="longclick_speak">錄音</string>
+    <string name="picture">圖片</string>
+    <string name="camera">拍攝</string>
+    <string name="location">視頻</string>
+    <string name="voice_up_tips">手指上滑,取消發送</string>
+    <string name="voice_cancel_tips">鬆開手指，取消發送</string>
+    <string name="voice_seconds_tips">還可以錄制%1$s秒</string>
+    <string name="voice_short_tips">錄音時間太短</string>
+
+    <string name="btn_love">情感諮詢</string>
+    <string name="btn_stock">投資理財</string>
+    <string name="btn_live">社交生活</string>
+    <string name="btn_beauty">儀錶美容</string>
+    <string name="btn_work">職場諮詢</string>
+    <string name="btn_health">醫療保健</string>
+    <string name="btn_law">法律諮詢</string>
+    <string name="btn_more">全部分類</string>
+    <string name="btn_tab_home">主頁</string>
+    <string name="tv_intro">資深XXXXXXXXXX專家</string>
+
+</resources>
